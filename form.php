@@ -4,7 +4,7 @@ $visitor_email = $_POST['email']
 $subject = $_POST['subject']
 $message = $_POST['message']
 
-$email_from = 'vannysambath.github.io'
+$email_from = 'info@vannysambath.github.io'
 $email_subject ='New From Submission'
 $email_body = "User Name:" $name.\n"
             "User Email:" $visitor_emai.\n"
