@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>គេហទំព័រ-សម្បត្ត វណ្ណី</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/1bf3845c05.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">ទំព័រដើម</a></li>
+                    <li><a href="about.html">ជំនាញ</a></li>
+                    <li><a href="course.html">ព័ត៏មានលម្អិត</a></li>
+                    <li><a href="blog.html">សកលវីទ្យាល័យ</a></li>
+                    <li><a href="contact.html">ទំនាក់ទំនង</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>អំពីការសិក្សានៅសកលវិទ្យល័យរបស់ខ្ញុំ</h1>
+    </section>
+
+    <!-- Blog page -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="certificate.jpg" alt="IMG">
+            <h2>ប្លុកស្ពត</h2>
+            <p>សួរស្តី!​ ខ្ញុំបាទឈ្មោះ <span style="color: #f44336;">សម្បត្តិ វណ្ណី</span>
+                សូមស្វាគមន៏មកកាន់គេហទំព័ររបស់ខ្ញុំបាទ
+                នៅក្នុងគេហទំព័រមួយនេះខ្ញុំបានសរសេព័ត៍មានផ្ទាល់ខ្លួន<br>ជាច្រើន​ដែលទាក់ទងទៅនិងការសិក្សារបស់ខ្ញុំផ្ទាល់ព្រមជាមួយនិងបទពិសោធន៏ទូរទៅនិងកាងារមួយចំនួនផងដែរ
+            </p>
+            <div class="comment-box">
+                <h3>បញ្ចេញមតិរបស់អ្នកនៅទីនេះ</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="បំពេញឈ្មោះរបស់អ្នក">
+                    <input type="email" placeholder="បំពេញ Email របស់អ្នក">
+                    <textarea rows="5" placeholder="មតិរបស់អ្នក"></textarea>
+                    <button type="submit"​ class="hero-btn red-btn">បញ្ជូនមតិរបស់អ្នក</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="blog-right">
+            <h3>ផលលំបាកនៅក្នុងការសិក្សា</h3>
+            <div>
+                <span>ចាប់តាំងពីចប់ថ្នាក់ទី១២មក</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>ចាប់តាំងពីចប់ថ្នាក់ទី១២មក</span>
+                <span>21</span>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+    <!-- Facilities -->
+
+
+    
+    <section class="footer">
+        <h4>ព័ត៏មានលម្អិត</h4>
+        <p>ខ្ញុំបង្កើត Website​ នេះឡើងក្នុងគោលបំណងចង់អោយមនុស្សគ្រប់រូបអាចស្គាល់ខ្ញុំកាន់តែច្រើនជាមួយគ្នានេះផងដែរ<br>
+            ប្រសិនបើអ្នកមានបំណងចង់ទាក់ទងរឿងកាងារអ្នកអាចចុច links​ ខាងក្រោមនេះបាន សូមអរគុណ! សូមអោយជួបតែសំណាងល្អ</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube-play"></i>
+            <i class="fa fa-telegram"></i>
+            <i class="fa fa-github"></i>
+        </div>
+    </section>
+
+
+
+
+    <!--JaVa-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
