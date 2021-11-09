@@ -307,9 +307,23 @@ facilities-col h3{
 }
 .icons .fa{
     color: #f44336;
-    margin: 0;
+    margin: 3px;
     cursor: pointer;
     padding: 18px 0;
+}
+.icons .fab{
+    color: #f44336;
+    margin: 3px;
+    cursor: pointer;
+    padding: 18px 0;
+    font-size: 15px;
+}
+.icons .fas{
+    color: #f44336;
+    margin: 3px;
+    cursor: pointer;
+    padding: 18px 0;
+    font-size: 15px;
 }
 
 /*--About Us Page--*/
@@ -372,10 +386,12 @@ facilities-col h3{
     color: #222;
     font-weight: 600;
     margin: 30px 0;
+    text-align: center;
 }
 .blog-left p{
     color: #999;
-    padding: 1;
+    padding: 0;
+    margin: 2px;
 }
 .blog-right{
     flex-basis: 32%;
